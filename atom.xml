@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nofuck.github.io</id>
     <title>nofuck</title>
-    <updated>2020-02-22T04:58:34.497Z</updated>
+    <updated>2020-02-23T08:56:50.469Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nofuck.github.io"/>
     <link rel="self" href="https://nofuck.github.io/atom.xml"/>
@@ -10,6 +10,35 @@
     <logo>https://nofuck.github.io/images/avatar.png</logo>
     <icon>https://nofuck.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, nofuck</rights>
+    <entry>
+        <title type="html"><![CDATA[莫比乌斯(持续更新)]]></title>
+        <id>https://nofuck.github.io/post/mo-bi-wu-si-chi-xu-geng-xin/</id>
+        <link href="https://nofuck.github.io/post/mo-bi-wu-si-chi-xu-geng-xin/">
+        </link>
+        <updated>2020-02-23T08:24:20.000Z</updated>
+        <content type="html"><![CDATA[<p>(比较杂、乱😜🤡😯)</p>
+<h1 id="莫比乌斯函数">莫比乌斯函数</h1>
+<figure data-type="image" tabindex="1"><img src="https://img-blog.csdnimg.cn/2020022316354584.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://img-blog.csdnimg.cn/20200223163756551.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://img-blog.csdnimg.cn/20200223163905718.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<h1 id="莫比乌斯反演">莫比乌斯反演</h1>
+<figure data-type="image" tabindex="4"><img src="https://raw.githubusercontent.com/nofuck/Figure_bed/master/img/RQ7$E%7DJ5%7D%5B1MK%60LAX1VC$$E.png" alt="" loading="lazy"></figure>
+<p>先手动模拟看一下g能用f怎么表示出来。<br>
+<img src="https://img-blog.csdnimg.cn/20200223163344619.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="" loading="lazy"><br>
+然后依次求出g<br>
+<img src="https://img-blog.csdnimg.cn/20200223163207831.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="" loading="lazy"></p>
+<p>然后我们可以写成这个形式<br>
+<img src="https://img-blog.csdnimg.cn/20200223163435369.png" alt="在这里插入图片描述" loading="lazy"></p>
+<figure data-type="image" tabindex="5"><img src="https://img-blog.csdnimg.cn/20200223164120986.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://img-blog.csdnimg.cn/20200223164204406.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://img-blog.csdnimg.cn/20200223164240143.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<h1 id="参考链接">参考链接</h1>
+<p><a href="https://www.cnblogs.com/HenryHuang-Never-Settle/p/10472218.html">1😛</a><br>
+<a href="https://www.luogu.com.cn/blog/MaouSanta/Mobius-function">2🙃</a><br>
+<a href="https://blog.csdn.net/luyehao1/article/details/82661129">3😎</a><br>
+<a href="https://www.cnblogs.com/Robert-JYH/articles/11181750.html">4😗</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[cf613 E Delete a Segment]]></title>
         <id>https://nofuck.github.io/post/cf613-e-delete-a-segment/</id>

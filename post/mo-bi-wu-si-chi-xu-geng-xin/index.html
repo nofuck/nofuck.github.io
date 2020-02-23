@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>莫比乌斯(持续更新) | nofuck</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://nofuck.github.io/favicon.ico?v=1582448185943">
+<link rel="stylesheet" href="https://nofuck.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="(比较杂、乱😜🤡😯)
+莫比乌斯函数
+
+
+
+莫比乌斯反演
+
+先手动模拟看一下g能用f怎么表示出来。
+
+然后依次求出g
+
+然后我们可以写成这个形式
+
+
+
+
+参考链接
+1😛
+2🙃
+3😎
+4😗
+..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nofuck.github.io">
+        <img src="https://nofuck.github.io/images/avatar.png?v=1582448185943" class="site-logo">
+        <h1 class="site-title">nofuck</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/nofuck" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      只有颓废是不需要努力得来的
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/nofuck" target="_blank">nofuck</a> | <a class="rss" href="https://nofuck.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">莫比乌斯(持续更新)</h2>
+            <div class="post-date">2020-02-23</div>
+            
+            <div class="post-content" v-pre>
+              <p>(比较杂、乱😜🤡😯)</p>
+<h1 id="莫比乌斯函数">莫比乌斯函数</h1>
+<figure data-type="image" tabindex="1"><img src="https://img-blog.csdnimg.cn/2020022316354584.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://img-blog.csdnimg.cn/20200223163756551.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://img-blog.csdnimg.cn/20200223163905718.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<h1 id="莫比乌斯反演">莫比乌斯反演</h1>
+<figure data-type="image" tabindex="4"><img src="https://raw.githubusercontent.com/nofuck/Figure_bed/master/img/RQ7$E%7DJ5%7D%5B1MK%60LAX1VC$$E.png" alt="" loading="lazy"></figure>
+<p>先手动模拟看一下g能用f怎么表示出来。<br>
+<img src="https://img-blog.csdnimg.cn/20200223163344619.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="" loading="lazy"><br>
+然后依次求出g<br>
+<img src="https://img-blog.csdnimg.cn/20200223163207831.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="" loading="lazy"></p>
+<p>然后我们可以写成这个形式<br>
+<img src="https://img-blog.csdnimg.cn/20200223163435369.png" alt="在这里插入图片描述" loading="lazy"></p>
+<figure data-type="image" tabindex="5"><img src="https://img-blog.csdnimg.cn/20200223164120986.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://img-blog.csdnimg.cn/20200223164204406.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://img-blog.csdnimg.cn/20200223164240143.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3MTkyMA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<h1 id="参考链接">参考链接</h1>
+<p><a href="https://www.cnblogs.com/HenryHuang-Never-Settle/p/10472218.html">1😛</a><br>
+<a href="https://www.luogu.com.cn/blog/MaouSanta/Mobius-function">2🙃</a><br>
+<a href="https://blog.csdn.net/luyehao1/article/details/82661129">3😎</a><br>
+<a href="https://www.cnblogs.com/Robert-JYH/articles/11181750.html">4😗</a></p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nofuck.github.io/post/cf613-e-delete-a-segment/">
+                  <h3 class="post-title">
+                    cf613 E Delete a Segment
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>
